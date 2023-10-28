@@ -18,8 +18,12 @@ redirect_from:
 </head>
 <body>
 <div style="text-align:justify">
-    <p>I am a second-year Ph.D. student at <a href="https://www.tue.nl/en/" target="_blank">Eindhoven University of Technology</a>, under the supervision of <a href="https://www.win.tue.nl/~mpechen/?_gl=1*iopzok*_ga*NTk4Mzc5NDExLjE2ODA3NzUyNjU.*_ga_JN37M497TT*MTY5ODMzMjE2My4yOC4xLjE2OTgzMzIxODEuNDIuMC4w" target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, School of Control Science and Engineering, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang. 
+    <p>I am a second-year Ph.D. student at <a href="https://www.tue.nl/en/" target="_blank">Eindhoven University of Technology</a>,
+    under the supervision of <a href="https://www.win.tue.nl/~mpechen/?_gl=1*iopzok*_ga*NTk4Mzc5NDExLjE2ODA3NzUyNjU.*_ga_JN37M497TT*MTY5ODMzMjE2My4yOC4xLjE2OTgzMzIxODEuNDIuMC4w" 
+    target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. 
+    Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, School of Control Science and Engineering, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang.
 
+  </p>
     <p>My current research interests lie in reinforcement learning, especially causal RL.</p>
 
 </div>
