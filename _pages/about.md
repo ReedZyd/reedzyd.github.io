@@ -24,7 +24,7 @@ redirect_from:
     Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, School of Control Science and Engineering, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang.
 
   </p>
-    <p>My current research interests lie in reinforcement learning, especially causal RL.</p>
+    <p>My current research interests lie in causal reinforcement learning, text-based game, and embodied AI.</p>
 
 </div>
     <hr>
