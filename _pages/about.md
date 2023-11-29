@@ -56,12 +56,18 @@ redirect_from:
     <a href="https://sites.google.com/view/aot-rspt" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2304.03623v1.pdf" target="_blank">[Paper]</a></p>
 
     <hr>
-
-    <!-- <h1>Service</h1> -->
-    <!-- <ul> -->
-        <!-- <li>Journal Reviewer: TAI</li> -->
-        <!-- <li>Conference Reviewer: AAMAS</li> -->
-    <!-- </ul> -->
+    <h1>Award</h1>
+    <ul>
+        <li>NeurIPS 2023 Travel Award</li>
+        <li>Outstanding Graduates of Shandong Province (2019)</li>
+    <li>Competitions: Second Prize in the Chinese Graduate Mathematical Modeling Competition (2019), First Prize in the National Electronic Design Competition, Shandong Province (2017), International Aquatic Robot Competition Champion (2018, 2019)</li>
+    <li>Scholarships: Shandong University first-class scholarship, Shandong University outstanding students special scholarship, etc.</li>
+    </ul>
+    <h1>Service</h1>
+    <ul>
+        <li>Journal Reviewer: IEEE Transactions on Artificial Intelligence</li>
+        <li>Conference Reviewer: International Conference on Autonomous Agents and Multiagent Systems (2024)</li>
+    </ul>
 
 </body>
 </html>
