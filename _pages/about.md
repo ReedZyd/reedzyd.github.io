@@ -56,7 +56,7 @@ redirect_from:
     <a href="https://sites.google.com/view/aot-rspt" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2304.03623v1.pdf" target="_blank">[Paper]</a></p>
 
     <hr>
-    <h1>Award</h1>
+    <h1>Awards</h1>
     <ul>
         <li>NeurIPS 2023 Travel Award</li>
         <li>Outstanding Graduates of Shandong Province (2019)</li>
