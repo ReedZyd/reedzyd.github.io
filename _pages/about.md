@@ -20,11 +20,11 @@ redirect_from:
 <div style="text-align:justify">
     <p>I am a second-year Ph.D. student at <a href="https://www.tue.nl/en/" target="_blank">Eindhoven University of Technology</a>,
     under the supervision of <a href="https://www.win.tue.nl/~mpechen/?_gl=1*iopzok*_ga*NTk4Mzc5NDExLjE2ODA3NzUyNjU.*_ga_JN37M497TT*MTY5ODMzMjE2My4yOC4xLjE2OTgzMzIxODEuNDIuMC4w" 
-    target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. 
-    Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, School of Control Science and Engineering, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang.
+    target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. I am also working closely with <a href="https://yalidu.github.io/" target="_blank">Prof. Yali Du</a> at <a herf="https://www.kcl.ac.uk/" target="_blank">King’s College London</a>, and <a href="https://biweihuang.com/" target="_blank">Prof. Biwei Huang</a> at <a href="https://ucsd.edu/" target="_blank">University of California San Diego</a>.
+    Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, School of Control Science and Engineering, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang. I also obtained my bachelor's degree from Shandong University.
 
   </p>
-    <p>My current research interests lie in causal reinforcement learning, text-based game, and embodied AI.</p>
+    <p>My current research interests lie in causal reinforcement learning, multi-agent reinforcement learning, text-based game, and embodied AI.</p>
 
 </div>
     <hr>
@@ -40,21 +40,26 @@ redirect_from:
 
     <h1>Publication</h1>
 
-    <p><strong>Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach.</strong><br>
-    Yudi Zhang, Yali Du, Biwei Huang, Ziyan Wang, Jun Wang, Meng Fang, Mykola Pechenizkiy.<br>
+    <p>[1] Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach. Yudi Zhang, Yali Du, Biwei Huang, Ziyan Wang, Jun Wang, Meng Fang, Mykola Pechenizkiy.
     Advances in Neural Information Processing Systems (NeurIPS), 2023.<br>
     <a href="https://reedzyd.github.io/GenerativeReturnDecomposition/" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2305.18427.pdf" target="_blank">[Paper]</a></p>
 
-    <p><strong>COOM: A Game Benchmark for Continual Reinforcement Learning.</strong><br>
-    Tristan Tomilin, Meng Fang, Yudi Zhang, Mykola Pechenizkiy.<br>
+    <p>[2] COOM: A Game Benchmark for Continual Reinforcement Learning.
+    Tristan Tomilin, Meng Fang, Yudi Zhang, Mykola Pechenizkiy.
     Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track (NeurIPS D&B), 2023.<br>
     <a href="https://github.com/TTomilin/COOM" target="_blank">[Code]</a></p>
+    
+    <p>[3] Large Language Models are Neurosymbolic Reasoners. Meng Fang*, Shilong Deng*, Yudi Zhang*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang. Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024. <br>
+    </p>
 
-    <p><strong>RSPT: Reconstruct Surroundings and Predict Trajectories for Generalizable Active Object Tracking.</strong><br>
-    Fangwei Zhong*, Xiao Bi*, Yudi Zhang, Wei Zhang, Yizhou Wang.<br>
-    Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023 (Oral).<br>
+    <p>[4] RSPT: Reconstruct Surroundings and Predict Trajectories for Generalizable Active Object Tracking.<br>
+    Fangwei Zhong*, Xiao Bi*, Yudi Zhang, Wei Zhang, Yizhou Wang.
+    Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023 (Oral).
     <a href="https://sites.google.com/view/aot-rspt" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2304.03623v1.pdf" target="_blank">[Paper]</a></p>
 
+
+    <p><strong>Preprint:</strong></p><br>
+    <p>[5] MACCA: Offline Multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, Yudi Zhang, Meng Fang,  Biwei Huang. https://arxiv.org/abs/2312.03644.</p>
     <hr>
     <h1>Award</h1>
     <ul>
