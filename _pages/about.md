@@ -52,13 +52,13 @@ redirect_from:
     <p>[3] Large Language Models are Neurosymbolic Reasoners. Meng Fang*, Shilong Deng*, Yudi Zhang*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang. Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024. <br>
     </p>
 
-    <p>[4] RSPT: Reconstruct Surroundings and Predict Trajectories for Generalizable Active Object Tracking.<br>
+    <p>[4] RSPT: Reconstruct Surroundings and Predict Trajectories for Generalizable Active Object Tracking.
     Fangwei Zhong*, Xiao Bi*, Yudi Zhang, Wei Zhang, Yizhou Wang.
     Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023 (Oral).
     <a href="https://sites.google.com/view/aot-rspt" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2304.03623v1.pdf" target="_blank">[Paper]</a></p>
 
 
-    <p><strong>Preprint:</strong></p><br>
+    <p><strong>Preprint:</strong></p>
     <p>[5] MACCA: Offline Multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, Yudi Zhang, Meng Fang,  Biwei Huang. https://arxiv.org/abs/2312.03644.</p>
     <hr>
     <h1>Award</h1>
