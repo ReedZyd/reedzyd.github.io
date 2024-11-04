@@ -37,7 +37,7 @@ redirect_from:
     </ul>
 
     
-    <hr>
+    <!-- <hr> -->
     <h1>News</h1>
     <ul>
         <li>Oct 2024, two papers accecpted by NeurIPS 2024 CRL workshop.</li>
@@ -47,6 +47,8 @@ redirect_from:
         <li>Sep 2023, two papers accecpted by NeurIPS 2023.</li>
 
     </ul>
+
+
     <h1>Publication</h1>
 
     <p>[1] Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach. Yudi Zhang, Yali Du, Biwei Huang, Ziyan Wang, Jun Wang, Meng Fang, Mykola Pechenizkiy.
@@ -84,7 +86,7 @@ redirect_from:
     <li>Competitions: Second Prize in the Chinese Graduate Mathematical Modeling Competition (2019), First Prize in the National Electronic Design Competition, Shandong Province (2017), International Aquatic Robot Competition Champion (2018, 2019)</li>
     <li>Scholarships: Shandong University first-class scholarship, Shandong University outstanding students special scholarship, etc.</li>
     </ul>
-    
+
     <h1>Service</h1>
     <ul>
         <li>Journal Reviewer: IEEE Transactions on Artificial Intelligence.</li>
