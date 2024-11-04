@@ -71,7 +71,7 @@ redirect_from:
     
     <p>[5] MACCA: Offline multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, Yudi Zhang, Meng Fang,  Biwei Huang. 
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. 
-    <a href=https://arxiv.org/abs/2312.03644. target="_blank">[Paper]</a></p>
+    <a href=https://arxiv.org/abs/2312.03644 target="_blank">[Paper]</a></p>
 
     <p><strong>Preprint:</strong></p>
     <p>[6] RuAG: Learned-rule-augmented Generation for Large Language Models.
