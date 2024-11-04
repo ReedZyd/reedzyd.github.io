@@ -84,12 +84,13 @@ redirect_from:
     <li>Competitions: Second Prize in the Chinese Graduate Mathematical Modeling Competition (2019), First Prize in the National Electronic Design Competition, Shandong Province (2017), International Aquatic Robot Competition Champion (2018, 2019)</li>
     <li>Scholarships: Shandong University first-class scholarship, Shandong University outstanding students special scholarship, etc.</li>
     </ul>
+    
     <h1>Service</h1>
     <ul>
-        <li>Journal Reviewer: IEEE Transactions on Artificial Intelligence</li>
-        <li>Conference Reviewer: AAMAS 2024, ICML 2024, NeurIPS 2024, AAAI 2025, ICLR 2025, AISTATS 2025</li>
-        <li>Teaching Assistant: Generative AI in OxML 2024, 2IIG0 Data Mining and Machine Learning </li>
-        <li>Supervised MSc students: Schipper Olivier, Beuningen Niels van </li>
+        <li>Journal Reviewer: IEEE Transactions on Artificial Intelligence.</li>
+        <li>Conference Reviewer: AAMAS 2024, ICML 2024, NeurIPS 2024, AAAI 2025, ICLR 2025, AISTATS 2025.</li>
+        <li>Teaching Assistant: Generative AI in OxML 2024, 2IIG0 Data Mining and Machine Learning.</li>
+        <li>Supervised MSc students: Schipper Olivier, Beuningen Niels van.</li>
 
     </ul>
 
