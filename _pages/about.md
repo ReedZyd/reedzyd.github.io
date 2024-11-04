@@ -20,8 +20,8 @@ redirect_from:
 <div style="text-align:justify">
     <p>I am a third-year Ph.D. student at <a href="https://www.tue.nl/en/" target="_blank">Eindhoven University of Technology</a>,
     under the supervision of <a href="https://www.win.tue.nl/~mpechen/?_gl=1*iopzok*_ga*NTk4Mzc5NDExLjE2ODA3NzUyNjU.*_ga_JN37M497TT*MTY5ODMzMjE2My4yOC4xLjE2OTgzMzIxODEuNDIuMC4w" 
-    target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. I am also very fortunate to work closely with <a href="https://yalidu.github.io/" target="_blank">Prof. Yali Du</a> at <a herf="https://www.kcl.ac.uk/" target="_blank">King’s College London</a>, and <a href="https://biweihuang.com/" target="_blank">Prof. Biwei Huang</a> at <a href="https://ucsd.edu/" target="_blank">University of California San Diego</a>.
-    Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, School of Control Science and Engineering, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang. I also obtained my bachelor's degree from Shandong University.
+    target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. I am also very fortunate to work closely with <a href="https://yalidu.github.io/" target="_blank">Prof. Yali Du</a> at <a herf="https://www.kcl.ac.uk/" target="_blank">King’s College London</a>, and <a href="https://biweihuang.com/" target="_blank">Prof. Biwei Huang</a> at <a href="https://ucsd.edu/" target="_blank">University of California San Diego</a>. I had been a research intern at Microsoft Research Asia with my mentor, <a href="https://scholar.google.com/citations?user=hqlU92YAAAAJ" target="_blank">Lu Wang</a>.
+    Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang. I also obtained my bachelor's degree from Shandong University.
 
   </p>
     <p>My current research interests lie in causal reinforcement learning, multi-agent reinforcement learning, LLMs and embodied AI.</p>
@@ -36,6 +36,7 @@ redirect_from:
         <li>Ph.D in Computer Science, Eindhoven University of Technology, 2026 (expected)</li>
     </ul>
 
+    
     <hr>
     <h1>News</h1>
     <ul>
@@ -87,6 +88,7 @@ redirect_from:
         <li>Journal Reviewer: IEEE Transactions on Artificial Intelligence</li>
         <li>Conference Reviewer: AAMAS 2024, ICML 2024, NeurIPS 2024, AAAI 2025, ICLR 2025, AISTATS 2025</li>
         <li>Teaching Assistant: Generative AI in OxML 2024, 2IIG0 Data Mining and Machine Learning </li>
+        <li>Supervised MSc students: Schipper Olivier, Beuningen Niels van </li>
 
     </ul>
 
