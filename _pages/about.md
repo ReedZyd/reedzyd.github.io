@@ -75,7 +75,7 @@ redirect_from:
     <a href="https://arxiv.org/abs/2312.03644" target="_blank">[Paper]</a></p>
 
     <p><strong>Preprint:</strong></p>
-    <p>[7] RuAG: Learned-rule-augmented Generation for Large Language Models.
+    <p>[7] RuAG: Learned-rule-augmented Generation for Large Language Models.</p>
 
     <h1>Award</h1>
     <ul>
