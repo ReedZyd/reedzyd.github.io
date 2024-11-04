@@ -20,7 +20,7 @@ redirect_from:
 <div style="text-align:justify">
     <p>I am a third-year Ph.D. student at <a href="https://www.tue.nl/en/" target="_blank">Eindhoven University of Technology</a>,
     under the supervision of <a href="https://www.win.tue.nl/~mpechen/?_gl=1*iopzok*_ga*NTk4Mzc5NDExLjE2ODA3NzUyNjU.*_ga_JN37M497TT*MTY5ODMzMjE2My4yOC4xLjE2OTgzMzIxODEuNDIuMC4w" 
-    target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. I am also very fortunate to work closely with <a href="https://yalidu.github.io/" target="_blank">Prof. Yali Du</a> at <a herf="https://www.kcl.ac.uk/" target="_blank">King’s College London</a>, and <a href="https://biweihuang.com/" target="_blank">Prof. Biwei Huang</a> at <a href="https://ucsd.edu/" target="_blank">University of California San Diego</a>. I had been a research intern at Microsoft Research Asia with my mentor, <a href="https://scholar.google.com/citations?user=hqlU92YAAAAJ" target="_blank">Lu Wang</a>.
+    target="_blank">Mykola Pechenizkiy</a> and <a href="https://mengf1.github.io/" target="_blank">Meng Fang</a>. I am also very fortunate to work closely with <a href="https://yalidu.github.io/" target="_blank">Prof. Yali Du</a> at <a herf="https://www.kcl.ac.uk/" target="_blank">King’s College London</a>, and <a href="https://biweihuang.com/" target="_blank">Prof. Biwei Huang</a> at <a href="https://ucsd.edu/" target="_blank">University of California San Diego</a>. I was a research intern at Microsoft Research Asia, mentored by <a href="https://scholar.google.com/citations?user=hqlU92YAAAAJ" target="_blank">Dr. Lu Wang</a>.
     Prior to joining TU/e, I was a master student in the <a href="http://www.vsislab.com/" target="_blank">Visual, Sensing and Intelligent System Laboratory</a>, <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by Prof. Wei Zhang. I also obtained my bachelor's degree from Shandong University.
 
   </p>
@@ -68,6 +68,7 @@ redirect_from:
 
     <p>[4] A causality-inspired spatial-temporal return decomposition approach for multi-agent reinforcement learning. Yudi Zhang, Yali Du, Biwei Huang, Meng Fang, Mykola Pechenizkiy.
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. 
+    </p>
     
     <p>[5] MACCA: Offline multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, Yudi Zhang, Meng Fang,  Biwei Huang. 
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. 
