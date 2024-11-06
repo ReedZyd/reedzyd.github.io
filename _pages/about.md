@@ -50,7 +50,7 @@ redirect_from:
 
 
     <h1>Publication</h1>
-    <div class="notes"> <code style="font-size: 16px;">*</code><code style="font-size: 18px;">: Equal contribution</code>, <code style="font-size: 20px;">&#x2709;</code><code style="font-size: 18px;">: Corresponding author</code></div>
+    <div class="notes"> <code style="font-size: 16px;">*</code><code style="font-size: 14px;">: Equal contribution</code>, <code style="font-size: 20px;">&#x2709;</code><code style="font-size: 14px;">: Corresponding author</code></div>
 
     <br>
     
