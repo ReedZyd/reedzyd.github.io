@@ -53,7 +53,8 @@ redirect_from:
     <div>
     <div class="notes"> <code style="font-size: 16px;">*</code><code style="font-size: 18px;">: Equal contribution</code>, <code style="font-size: 20px;">&#x2709;</code><code style="font-size: 18px;">: Corresponding author</code></div>
 
-    
+    <br>
+    <br>
     
     <p>[1] Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach. <b>Yudi Zhang</b>, Yali Du, Biwei Huang, Ziyan Wang, Jun Wang, Meng Fang, Mykola Pechenizkiy.
     Advances in Neural Information Processing Systems (NeurIPS), 2023.<br>
