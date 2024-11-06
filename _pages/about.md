@@ -61,7 +61,10 @@ redirect_from:
     <p>[2] COOM: A Game Benchmark for Continual Reinforcement Learning.
     Tristan Tomilin, Meng Fang, <b>Yudi Zhang</b>, Mykola Pechenizkiy.
     Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track (NeurIPS D&B), 2023.<br>
-    <a href="https://github.com/TTomilin/COOM" target="_blank">[Code]</a></p>
+    
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html" target="_blank">[Paper]</a>
+    <a href="https://github.com/TTomilin/COOM" target="_blank">[Code]</a>
+    </p>
     
     <p>[3] Large Language Models are Neurosymbolic Reasoners. Meng Fang*, Shilong Deng*, <b>Yudi Zhang</b>*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang. Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024.
     <br> 
@@ -81,11 +84,11 @@ redirect_from:
     </p>
 
     <p>[6] MACCA: Offline multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, <b>Yudi Zhang</b>, Meng Fang,  Biwei Huang. 
-     In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. 
+     In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. <br>
     <a href="https://arxiv.org/abs/2312.03644" target="_blank">[Paper]</a></p>
 
 
-    <p>[7] RuAG: Learned-rule-augmented Generation for Large Language Models.</p>
+    <p>[7] RuAG: Learned-rule-augmented Generation for Large Language Models. <b>Yudi Zhang</b>*, Pei Xiao*, Lu Wang, Chaoyun Zhang, Meng Fang, Yali Du, Yevgeniy Puzyrev, Randolph Yao, Si Qin, Qingwei Lin, Mykola Pechenizkiy, Dongmei Zhang, Saravan Rajmohan, Qi Zhang </p> <br>
 
 
     <h1>Award</h1>
