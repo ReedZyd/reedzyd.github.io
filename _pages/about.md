@@ -63,12 +63,15 @@ redirect_from:
     Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track (NeurIPS D&B), 2023.<br>
     <a href="https://github.com/TTomilin/COOM" target="_blank">[Code]</a></p>
     
-    <p>[3] Large Language Models are Neurosymbolic Reasoners. Meng Fang*, Shilong Deng*, <b>Yudi Zhang</b>*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang. Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024. <br>
+    <p>[3] Large Language Models are Neurosymbolic Reasoners. Meng Fang*, Shilong Deng*, <b>Yudi Zhang</b>*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang. Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024.
+    <br> 
+    <a href="https://arxiv.org/abs/2401.09334" target="_blank">[Paper]</a>
     </p>
 
     <p>[4] RSPT: Reconstruct Surroundings and Predict Trajectories for Generalizable Active Object Tracking.
     Fangwei Zhong*, Xiao Bi*, <b>Yudi Zhang</b>, Wei Zhang, Yizhou Wang.
     Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023 (Oral).
+    <br>
     <a href="https://sites.google.com/view/aot-rspt" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2304.03623v1.pdf" target="_blank">[Paper]</a></p>
 
 
