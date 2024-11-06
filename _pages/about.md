@@ -50,29 +50,32 @@ redirect_from:
 
 
     <h1>Publication</h1>
+    <div class="notes"> <code style="font-size: 18px;">*</code><code>: Equal contribution</code>, <code style="font-size: 20px;">&#x2709;</code><code>: Corresponding author</code></div>
 
-    <p>[1] Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach. Yudi Zhang, Yali Du, Biwei Huang, Ziyan Wang, Jun Wang, Meng Fang, Mykola Pechenizkiy.
+    
+    
+    <p>[1] Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach. <b>Yudi Zhang</b>, Yali Du, Biwei Huang, Ziyan Wang, Jun Wang, Meng Fang, Mykola Pechenizkiy.
     Advances in Neural Information Processing Systems (NeurIPS), 2023.<br>
     <a href="https://reedzyd.github.io/GenerativeReturnDecomposition/" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2305.18427.pdf" target="_blank">[Paper]</a></p>
 
     <p>[2] COOM: A Game Benchmark for Continual Reinforcement Learning.
-    Tristan Tomilin, Meng Fang, Yudi Zhang, Mykola Pechenizkiy.
+    Tristan Tomilin, Meng Fang, <b>Yudi Zhang</b>, Mykola Pechenizkiy.
     Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track (NeurIPS D&B), 2023.<br>
     <a href="https://github.com/TTomilin/COOM" target="_blank">[Code]</a></p>
     
-    <p>[3] Large Language Models are Neurosymbolic Reasoners. Meng Fang*, Shilong Deng*, Yudi Zhang*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang. Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024. <br>
+    <p>[3] Large Language Models are Neurosymbolic Reasoners. Meng Fang*, Shilong Deng*, <b>Yudi Zhang</b>*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang. Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024. <br>
     </p>
 
     <p>[4] RSPT: Reconstruct Surroundings and Predict Trajectories for Generalizable Active Object Tracking.
-    Fangwei Zhong*, Xiao Bi*, Yudi Zhang, Wei Zhang, Yizhou Wang.
+    Fangwei Zhong*, Xiao Bi*, <b>Yudi Zhang</b>, Wei Zhang, Yizhou Wang.
     Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023 (Oral).
     <a href="https://sites.google.com/view/aot-rspt" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2304.03623v1.pdf" target="_blank">[Paper]</a></p>
 
-    <p>[5] CAST: A causality-inspired spatial-temporal return decomposition approach for multi-agent reinforcement learning. Yudi Zhang, Yali Du, Biwei Huang, Meng Fang, Mykola Pechenizkiy.
+    <p>[5] CAST: A causality-inspired spatial-temporal return decomposition approach for multi-agent reinforcement learning. <b>Yudi Zhang</b>, Yali Du, Biwei Huang, Meng Fang, Mykola Pechenizkiy.
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. <br>
     </p>
 
-    <p>[6] MACCA: Offline multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, Yudi Zhang, Meng Fang,  Biwei Huang. 
+    <p>[6] MACCA: Offline multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, <b>Yudi Zhang</b>, Meng Fang,  Biwei Huang. 
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. 
     <a href="https://arxiv.org/abs/2312.03644" target="_blank">[Paper]</a></p>
 
