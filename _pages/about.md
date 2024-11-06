@@ -71,6 +71,8 @@ redirect_from:
     Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023 (Oral).
     <a href="https://sites.google.com/view/aot-rspt" target="_blank">[Project]</a>, <a href="https://arxiv.org/pdf/2304.03623v1.pdf" target="_blank">[Paper]</a></p>
 
+
+    <p><strong>Workshops & Preprint:</strong></p>
     <p>[5] CAST: A causality-inspired spatial-temporal return decomposition approach for multi-agent reinforcement learning. <b>Yudi Zhang</b>, Yali Du, Biwei Huang, Meng Fang, Mykola Pechenizkiy.
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. <br>
     </p>
@@ -79,7 +81,7 @@ redirect_from:
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. 
     <a href="https://arxiv.org/abs/2312.03644" target="_blank">[Paper]</a></p>
 
-    <p><strong>Preprint:</strong></p>
+
     <p>[7] RuAG: Learned-rule-augmented Generation for Large Language Models.</p>
 
 
