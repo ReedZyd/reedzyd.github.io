@@ -50,7 +50,8 @@ redirect_from:
 
 
     <h1>Publication</h1>
-    <div class="notes"> <code style="font-size: 18px;">*</code><code>: Equal contribution</code>, <code style="font-size: 20px;">&#x2709;</code><code>: Corresponding author</code></div>
+    <div>
+    <div class="notes"> <code style="font-size: 12px;">*</code><code>: Equal contribution</code>, <code style="font-size: 12px;">&#x2709;</code><code>: Corresponding author</code></div>
 
     
     
@@ -81,6 +82,8 @@ redirect_from:
 
     <p><strong>Preprint:</strong></p>
     <p>[7] RuAG: Learned-rule-augmented Generation for Large Language Models.</p>
+
+    </div>
 
     <h1>Award</h1>
     <ul>
