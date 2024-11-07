@@ -29,12 +29,12 @@ redirect_from:
 </div>
     <hr>
 
-    <h1>Education</h1>
+    <!-- <h1>Education</h1>
     <ul>
         <li>B.S. in Automation, Shandong University, 2015 - 2019</li>
         <li>M.S. in Control Science and Engineering, Shandong University, 2019 - 2022</li>
         <li>Ph.D in Computer Science, Eindhoven University of Technology, 2026 (expected)</li>
-    </ul>
+    </ul> -->
 
     
     <!-- <hr> -->
