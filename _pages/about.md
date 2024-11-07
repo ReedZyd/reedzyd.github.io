@@ -89,6 +89,7 @@ redirect_from:
 
 
     <p>[7] RuAG: Learned-rule-augmented Generation for Large Language Models. <b>Yudi Zhang</b>*, Pei Xiao*, Lu Wang, Chaoyun Zhang, Meng Fang, Yali Du, Yevgeniy Puzyrev, Randolph Yao, Si Qin, Qingwei Lin, Mykola Pechenizkiy, Dongmei Zhang, Saravan Rajmohan, Qi Zhang </p> <br>
+    <a href="https://arxiv.org/pdf/2411.03349" target="_blank">[Paper]</a></p>
 
 
     <h1>Award</h1>
