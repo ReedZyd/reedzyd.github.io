@@ -1,0 +1,1337 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link id="jqueryui_191" rel="stylesheet" type="text/css" class="library" href="./index_files/jquery-ui-1.9.1.custom.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index_files/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/index_files/active_menu.js"></script>
+    <script id="jquery_182" type="text/javascript" class="library" src="./index_files/jquery-1.8.2.min.js"></script>
+    <script id="jqueryui_191" type="text/javascript" class="library" src="./index_files/jquery-ui-1.9.1.custom.min.js"></script>
+    <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+
+
+    <style>
+        .h1_block {
+            margin: 0 auto;
+            width: 850px;
+            margin-top: 30px;
+        }
+        
+        .main {
+            width: 850px;
+            margin-left: 20px auto;
+            margin-right: 20px auto;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px rgb(177, 177, 177);
+            background-color: #ffffff;
+        }
+        
+        .holder {
+            overflow: hidden;
+            width: 880px;
+            /* height: 160px; */
+            float: left;
+            /* text-align: center; */
+            position: relative;
+            background-color: #ffffff;
+            /* margin-top: 10px; */
+            /* margin-right: 10px; */
+            /* margin-left: 10px; */
+        }
+        
+        .holder-research {
+            overflow: hidden;
+            width: 850px;
+            /* height: 160px; */
+            float: left;
+            text-align: justify;
+            position: relative;
+            background-color: #ffffff;
+            margin-top: 10px;
+            /* margin-right: 10px; */
+            /* margin-left: 10px; */
+        }
+        
+        .holder-publication {
+            overflow: hidden;
+            width: 800px;
+            /* height: 160px; */
+            float: left;
+            text-align: justify;
+            position: relative;
+            background-color: #ffffff;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 20px;
+            margin-left: 20px;
+            line-height: 16px;
+            color: rgba(0, 0, 0, 0.8)
+        }
+        
+        .holder-img {
+            /* overflow: hidden; */
+            /* width: 880px; */
+            /* height: 160px; */
+            /* align: center; */
+            /* position: relative; */
+            /* background-color: #ffffff; */
+            text-align: center;
+            margin-top: 5px;
+            /* margin-top: 10px; */
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        
+        .holder .text {
+            padding: 10px;
+            display: none;
+            line-height: 16px;
+            position: absolute;
+            top: 60px;
+            margin-left: 210px;
+            font-size: 16px;
+            color: #000;
+            width: 40px;
+        }
+        
+        .each_block {
+            margin: 0 auto;
+            width: 850px;
+            box-shadow: 0px 0px 10px rgb(177, 177, 177)
+        }
+        
+        .sub_block {
+            margin-top: 15px;
+            margin-right: 30px;
+            margin-left: 30px;
+            text-align: justify;
+        }
+        
+        .sub_honor_block {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        
+        .sub_extracurricular_block {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        
+        .sub_skill_block {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        
+        .sub_course_block {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        
+        .sub_title {
+            float: left;
+            margin-left: 25px;
+        }
+        
+        .sub_honor {
+            margin-left: 20px;
+            height: 90px;
+        }
+        
+        .time_style {
+            margin-left: 680px;
+            margin-top: 23px;
+        }
+        
+        .black_overlay {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index: 1001;
+            -moz-opacity: 0.8;
+            opacity: .80;
+            filter: alpha(opacity=80);
+        }
+        
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            /* border: 16px solid lightblue; */
+            background-color: rgb(0, 0, 0);
+            z-index: 1002;
+            overflow: auto;
+            text-align: center;
+        }
+        
+        @-moz-keyframes nodeInserted {
+            from {
+                opacity: 0.99;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes nodeInserted {
+            from {
+                opacity: 0.99;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @-o-keyframes nodeInserted {
+            from {
+                opacity: 0.99;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes nodeInserted {
+            from {
+                opacity: 0.99;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        embed,
+        object {
+            animation-duration: .001s;
+            -ms-animation-duration: .001s;
+            -moz-animation-duration: .001s;
+            -webkit-animation-duration: .001s;
+            -o-animation-duration: .001s;
+            animation-name: nodeInserted;
+            -ms-animation-name: nodeInserted;
+            -moz-animation-name: nodeInserted;
+            -webkit-animation-name: nodeInserted;
+            -o-animation-name: nodeInserted;
+        }
+        
+        .a1 {
+            font-size: 18px;
+            color: rgb(5, 81, 180)
+        }
+        
+        .home_font {
+            color: rgba(0, 0, 0, 0.8)
+        }
+        
+        .institution_font {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .sub_font {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.8)
+        }
+        
+        .a3 {
+            color: rgba(0, 0, 0, 1.00);
+            font-size: 30px;
+        }
+        
+        .a4 {
+            color: rgba(0, 0, 0, 1.00);
+            font-size: 18px;
+        }
+        
+        .a45 li {
+            margin-top: 20px;
+            font-size: 16px;
+            /*左边框间距*/
+        }
+        
+        .br {
+            size: 12px;
+        }
+        /* .main p fa_hover.hover {
+            color: #333030;
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        } */
+    </style>
+    <script type="text/javascript">
+        //弹出隐藏层
+        function ShowDiv(show_div, bg_div) {
+            document.getElementById(show_div).style.display = 'block';
+            document.getElementById(bg_div).style.display = 'block';
+
+            var bgdiv = document.getElementById(bg_div);
+            bgdiv.style.width = document.body.scrollWidth;
+            // bgdiv.style.height = $(document).height();
+            $("#" + bg_div).height($(document).height());
+        };
+        //关闭弹出层
+        function CloseDiv(show_div, bg_div) {
+            document.getElementById(show_div).style.display = 'none';
+            document.getElementById(bg_div).style.display = 'none';
+        };
+    </script>
+
+
+
+    <script type="text/javascript " src="./index_files/jquery-1.11.0.min.js "></script>
+    <script type="text/javascript " src="./index_files/bringins.js "></script>
+
+
+</head>
+
+<body class="meny-left" style="perspective: 850px; -webkit-perspective-origin-x: 0px; -webkit-perspective-origin-y: 50%; perspective-origin: 0px 50%;">
+
+    <!-- videos -->
+    <!--弹出层时背景层DIV-->
+    <div id="fade" class="black_overlay"></div>
+    <div id="video_re1" class="white_content">
+        <div style="text-align: right; margin-top: 20px; margin-right: 20px;">
+            <span style="font-size: 16px; color: #ffffff;" onclick="CloseDiv('video_re1','fade')"><strong>Close</strong></span>
+        </div>
+        <iframe width=90% height=90% src="https://www.youtube.com/embed/JzBCQDilPyk" style="text-align: center;" title="YouTube video player" frameborder="10px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <div id="video_re2" class="white_content">
+        <div style="text-align: right; margin-top: 20px; margin-right: 20px;">
+            <span style="font-size: 16px; color: #ffffff;" onclick="CloseDiv('video_re2','fade')"><strong>Close</strong></span>
+        </div>
+        <iframe width=90% height=90% src="https://www.youtube.com/embed/wVc77ZYWQes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="video_re3" class="white_content">
+        <div style="text-align: right; margin-top: 20px; margin-right: 20px;">
+            <span style="font-size: 16px; color: #ffffff;" onclick="CloseDiv('video_re3','fade')"><strong>Close</strong></span>
+        </div>
+        <iframe width=90% height=90% src="https://www.youtube.com/embed/NF3fH1ATLVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="meny" style="width: 850px; height: 100%; position: fixed; display: block; z-index: 1; transform-origin: 100% 50% 0px; transition: all 0.5s ease; transform: translateX(-100%) translateX(6px) scale(1.01) rotateY(-30deg);">
+        <!-- <div class="title"> -->
+        <!-- A personal blog<sup>  Ver 0.1  Build 180416</sup> -->
+
+        <!-- </div> -->
+        <br>
+
+        <div style="margin-right: 20px;">
+            <h2 style="color: #ffffff; text-align: right; "><strong>Yudi Zhang</strong></h2>
+
+        </div>
+        <br>
+
+        <div class="list_of_content">
+            <!-- <ul style="position:absolute;top:295px;right:30px;z-index:999;">
+                    <li style="width:10px!important;"><h3 style="line-height: 20px;word-wrap: break-word;">Content</h3></li>
+                </ul> -->
+            <ul class="a45" style="float: left;background:url(s.jpg);background-size:100% 100%;padding-bottom: 35px;position:relative;">
+                <br>
+
+                <li>
+                    <a style="color: #ffffff;" href="index.html#Biography">
+                        <strong>
+                            About
+
+                        </strong></a>
+                </li>
+                <br>
+
+                <li>
+                    <a style="color: #ffffff;" href="index.html#Publications">
+                        <strong>
+                            Publications
+                        </strong></a>
+                    <br>
+                </li>
+                <br>
+
+                <li>
+                    <a style="color: #ffffff;" href="index.html#Research Experiences">
+                        <strong>
+                            Research Experiences
+                        </strong></a>
+                    <br>
+                </li>
+                <br>
+
+
+                <li>
+                    <a style="color: #ffffff;" href="index.html#Honor & Award">
+                        <strong>
+                            Honor & Award
+                        </strong>
+                    </a>
+                </li>
+                <br>
+
+                <li>
+                    <a style="color: #ffffff;" href="index.html#Core Courses">
+                        <strong>Core Courses</strong></a>
+                </li>
+                <br>
+
+                <li>
+                    <a style="color: #ffffff;" href="index.html#Skills">
+                        <strong>Skills</strong></a>
+                </li>
+                <br>
+                <li>
+                    <a style="color: #ffffff;" href="index.html#Extracurricular Experiences">
+                        <strong>
+                            Extracurricular Experiences
+                        </strong></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="comment">
+            <ul style="margin-bottom: 30px;">
+                <p>You Have to Work Very Hard to Make Everything Look Easy.</p>
+            </ul>
+        </div>
+    </div>
+    <div class="meny-arrow" style="font-size: 13px;">
+    </div>
+
+
+    <div class="contents">
+        <!-- Home -->
+        <div id="A1" class="h1_block">
+            <div class="main">
+                <!-- home/left -->
+                <div style="float: left; width: 260px;  background-color: #ffffff; " align="center ">
+                    <br>
+                    <div>
+                        <!-- picture -->
+                        <img width="130px " height="180px " src="index_files/img/a1.jpg " style="border-radius: 100px " alt=" ">
+
+                        <br>
+                        <br>
+                        <!--name-->
+                        <div>
+                            <h1 class="a3 ">
+                                <strong>
+                                    Yudi Zhang
+                                    <br>
+                                    张钰荻
+                                </strong>
+                            </h1>
+                            <p>
+                                Master of Science
+                            </p>
+                            <p>Shandong University</p>
+                            <p>
+                                <div aria-hidden=true>
+                                    <a class="fa_hover" itemprop=sameAs href=mailto:reed_zyd@mail.sdu.edu.cn target=_blank><i
+                                        class="fa fa-envelope fa-2x " style="color: rgb(5, 81, 180)"></i></a>
+
+                                    <a itemprop=sameAs href=https://github.com/ReedZyd target=_blank rel=noopener><i
+                                        class="fa fa-github-square fa-2x  " style="color: rgb(5, 81, 180) "></i></a>
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- home/right -->
+
+                <div style="background-color: #ffffff; ">
+                    <!-- biography -->
+                    <div style="margin-left: 260px; margin-right: 30px;  width:550px">
+                        <br>
+                        <div>
+                            <a name="Biography">
+                                <h1 style="margin-top: 0px; " class="a3">
+                                    <strong>Biography</strong>
+                                </h1>
+                            </a>
+                            <div style="margin-left: 20px; text-align: justify;">
+                                <p>
+                                    I am a second-year Ph.D student at Eindhoven University of Technology, 
+                                    under the supervision of <a href="https://www.win.tue.nl/~mpechen/?_gl=1*685ueh*_ga*NTk4Mzc5NDExLjE2ODA3NzUyNjU.*_ga_JN37M497TT*MTY5ODMyNTE2Mi4yNy4wLjE2OTgzMjUxNjIuNjAuMC4w">
+                                        Mykola Pechenizkiy
+                                    </a>  and <a href="https://mengf1.github.io/"> Meng Fang</a>. 
+                                    I am also working closely to <a href="https://yalidu.github.io/">Yali Du</a>. I spent three years as a master student at
+                                    <a href="http://www.vsislab.com/">Visual, Sensing and Intelligent System
+                                        Laboratory</a>, School of Control Science and Engineering, Shandong University (SDU) under the supervision of Prof. Wei Zhang. 
+                                        Before that, I received my Bachelor's degree in Automation at SDU.
+
+                                    <br>
+                                    <!-- <br> I am going to spend 4 years as a Ph.D. student at <a href="https://www.tue.nl/en/">Eindhoven University of Technology</a>. -->
+                                    <!-- <br> -->
+                                    <!-- <br> My current research interests are computer vision, robot learning, multi-agent learning. -->
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                        <br>
+
+                        <!-- Interest and Education -->
+                        <div>
+                            <div style="float: left;  width:200px; ">
+                                <h2 class="a4 "><strong>Interest</strong></h2>
+                                <ul class="ul-edu fa-ul ">
+                                    <div class="sub_font" style="margin-left: -20px; ">
+                                        <li><i class="fa fa-circle-thin " aria-hidden="true "></i> Reinforcement Learning</li>
+                                        <br>
+
+                                        <li><i class="fa fa-circle-thin " aria-hidden="true "></i> Causal Reinforcement Learning</li>
+                                        <br>
+                                        <li><i class="fa fa-circle-thin " aria-hidden="true "></i> Multi-Agent Learning
+                                        </li>
+
+                                    </div>
+                                </ul>
+
+                            </div>
+                            <div style="width:650px;  ">
+                                <h2 class="a4 "><strong>Education</strong></h2>
+                                <div style="margin-left: 200px;">
+                                    <ul class="ul-edu fa-ul ">
+                                        <li><i class="fa-li fa fa-graduation-cap "></i>
+
+                                            <p>M.Sc. in Control Science and Engineering, SDU</p>
+                                            <div class="institution_font">Average Mark: 90.75/100, 2019 - Present</div>
+                                        </li>
+                                        <li><i class="float: left;  fa-li fa fa-graduation-cap "></i>
+                                            <div>
+
+                                                <p>B.E. in Automation, SDU</p>
+                                                <div class="institution_font ">Average Mark: 88.51/100, 2015 - 2019
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="A2" class="h1_block">
+            <h1>
+                <a name="Publications" class="a3 ">
+                    <strong>&ensp;Publications</strong>
+                </a>
+            </h1>
+            <div>
+                <!-- reseach 1 -->
+                <div class="main ">
+                    <div class="holder-publication">
+                        <!-- <p> -->
+                        <p>
+                            [1] Yudi Zhang, Fangwei Zhong, Ran Song, Wei Zhang and Yizhou Wang. STAR: Learning Spatial-Temporal Attention Representation for Robust Active Object Tracking. In preparation.
+                        </p>
+                        <p>
+
+                            [2] Xiao Bi, Yudi Zhang, Fangwei Zhong and Yizhou Wang. Reconstruct Surroundings and Predict Trajectory: Building a Generalizable Active Object Tracker. Submit to <i>European Conference
+                                on Computer Vision (ECCV)</i>, 2022.
+                        </p>
+
+                        <!-- </p> -->
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Research Experiences -->
+        <div id="A3" class="h1_block">
+            <h1>
+                <a name="Research Experiences" class="a3 ">
+                    <strong>&ensp;Research Experiences</strong>
+                </a>
+            </h1>
+            <div>
+                <!-- reseach 1 -->
+                <div class="main ">
+                    <div class="holder-research">
+                        <p>
+                            <!--title-->
+
+                            <strong>
+                                <a class="a1 sub_title">
+                                    <h2>Active object tracking (AOT) based on spatial-temporal attention</h2>
+                                </a>
+                                <!-- <div class="sub_font time_style">Jun. 2020 -- Present, Jinan</div> -->
+                            </strong>
+                            <br>
+
+                            <!-- img -->
+                            <div class="holder-img">
+                                <!-- <br> -->
+                                <img height="180px" src="index_files/img/re1/framework.png ">
+                                <img height="180px" src="index_files/img/re1/cases.png ">
+                            </div>
+                            <!-- text -->
+                            <div class="sub_font sub_block">
+                                <li>
+                                    <b>Research keywords</b>: active object tracking, spatial-temporal attention, multi-agent reinforcement learning (MARL)
+                                </li>
+
+                                <!-- <li> -->
+                                <!-- We propose a framework to form a structure-aware semantic-spatial-temporal representation by considering different modal information according to the observation dynamics, while guided by an expert model and under a tracker-target competition pipeline.
+                                    Firstly, we learn an expert model and plenty of target policies based on a local grid map. Secondly, by using a well-designed S2TR module and imitation mechanism, the tracker learns multi-modal features from depth information
+                                    and target location (estimated by any passive tracker)to imitate the behavior of the expert. Empirical results show that the S2TR tracker significantly outperforms the baseline methods among unseen environments, and
+                                    easily transfer to real scenes. -->
+                                <!-- We proposes to exploit both RGB and depth data for AOT by learning a semantic-spatial-temporal representation (S2TR) based on the semantic and spatial knowledge with 
+                                    temporal cues derived from both types of data. This is achieved by a specifically designed S2TR module composed of self-enhancement blocks, cross-enhancement blocks, 
+                                    temporal aggregation blocks and S2TR fusion block, which not only models the intra/inter-modality relationship of the two types of knowledge, 
+                                    but also fuses them into a unified temporal-aware representation. Based on the fused representation, 
+                                    we further present an actor-critic network optimized with adversarial reinforcement learning to produce camera motion policies. 
+                                    The proposed AOT pipeline is demonstrated in both virtual and real-world scenes. -->
+
+                                <!-- </li> -->
+                                <li>
+                                    A novel spatial-temporal attention representation is proposed to encode the target location, scene structure and temporal cues dynamically.
+
+                                    <!-- A module is proposed for the multi-modal perception according to the observed dynamics of tracker, target, and scene. -->
+                                </li>
+                                <li>Video tracker, spatial-temporal attention representation module and policy learning are integrated into an adversarial MARL pipeline for a generalizable AOT tracker.
+                                </li>
+
+                                <li>The framework generalizes well in photo-realistic and real-world scenes (video clips and robots, e.g. Scout, Scout-mini), and significantly outperforms the SOTA methods.
+                                </li>
+
+
+                                <li>
+                                    Re-implementation of AOT methods based on RL, algorithm design, experiments on real robots (Scout, Scout-mini).
+                                </li>
+
+                                <br>
+                                <a style="border: 2px solid #dddddd; " href="index.html#Research Experiences#Active object tracking (AOT) based on spatial-temporal attention">In preparation.</a>
+                                <a style="color: #c2575b; border: 2px solid #dddddd; " onclick="ShowDiv('video_re1','fade')"> Video</a>
+                                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/YVYAOUu7gso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            </div>
+
+                        </p>
+                    </div>
+
+
+                </div>
+                <br>
+
+                <!-- reseach 2 -->
+                <!-- reseach 3 -->
+                <div class="main ">
+                    <div class="holder-research">
+                        <p>
+                            <strong>
+                                <a class="a1 sub_title">
+                                    Design and implementation of a face recognition and age/gender estimation system
+                                </a>
+                                <!-- <div class="sub_font time_style">Jun. 2020 -- Present, Jinan</div> -->
+                            </strong>
+                            <div class="holder-img">
+                                <br>
+                                <img height="170px" src="index_files/img/re3/overall.png ">
+                                <img height="170px" src="index_files/img/re3/overall1.png ">
+                                <!-- <div class="text " style="top:45px "><strong><a href="UAVPatrol.html " target="_blank ">More<br>...</a></strong></div> -->
+                            </div>
+
+                            <!-- <br> -->
+
+                            <div class="sub_font sub_block">
+                                <li>
+                                    <b>Excellent graduation thesis in Shandong University, 2019.</b>
+                                </li>
+
+                                <!-- <li>
+                                <b>Research keywords</b>: real-time face recognition and age/gender estimation
+                            </li> -->
+
+                                <!-- <li>
+                                Design and realize a real-time face recognition and age estimation system.
+                                The system uses Seta Face as the core algorithm for face recognition and soft stagewise regression network (SSR-Net) for age
+                                estimation.
+                                The human-computer interaction interface is written based on Qt, and the overall
+                                system is implemented on a 43-inch vertical all-in-one.
+                                In addition, a parallel execution of face recognition and age estimation is carried out
+                                by multi-thread technology.
+                            </li> -->
+                                <li>
+
+                                    Design and realize a real-time face recognition and age/gender estimation system on a 43-inch vertical all-in-one.
+                                </li>
+                                <li>
+                                    Based on multi-thread technology, face recognition is carried out by Seeta Face, and age estimation is based on SSR-Net.
+                                </li>
+                                <li>
+                                    The human-computer interface is written based on Qt.
+                                </li>
+                                <li>
+                                    Algorithm re-implementation, human-computer interface design and realization.
+                                </li>
+
+                                <li>
+                                    Overall pipeline design, age estimation network training, human-computer interface design and realization.
+
+                                </li>
+                                <br>
+                                <!-- <a style="border: 2px solid #dddddd; " href=" ">None.</a> -->
+                                <a style="color: #c2575b; border: 2px solid #dddddd; " href="https://github.com/ReedZyd/Qt_Identification"> Code</a>
+                                <a style="color: #c2575b; border: 2px solid #dddddd; " onclick="ShowDiv('video_re3','fade')"> Video</a>
+                            </div>
+
+                        </p>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Honor & Award -->
+        <div id="A4 " class="h1_block">
+            <h1>
+                <a name="Honor & Award" class="a3">
+                    <strong>&ensp;Honor & Award</strong>
+
+                </a>
+            </h1>
+
+            <div>
+
+                <div class="main sub_font" style="height: 70px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div class="sub_honor">
+                            <p>
+                                <div class="a1 ">
+                                    National Post-Graduate Mathematical Contest in Modeling
+                                </div>
+                                <div class="sub_font sub_honor_block" style="width: 860px;">
+                                    2020 • 2-st prize, • Issued by Education Department of China
+
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="main sub_font" style="height: 70px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div class="sub_honor">
+                            <p>
+                                <div class="a1 ">
+                                    Undergraduate Electronic Design Contest in Shandong Province
+                                </div>
+                                <div class="sub_font sub_honor_block">
+                                    2018 • 1-st prize, indoor visible light source positioning • Issued by Education Department of Shandong Province
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="main sub_font" style="height: 70px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div class="sub_honor">
+                            <p>
+                                <div class="a1 ">
+                                    International Underwater Robot Competition
+                                </div>
+                                <div class="sub_font sub_honor_block">
+                                    2017, 2018 • 1-st Prize (total 5 times for different projects)
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="main sub_font" style="height: 70px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div class="sub_honor">
+                            <p>
+                                <div class="a1 ">
+                                    Special Freshman Scholarship
+                                </div>
+                                <!-- <div class="sub_font" style="margin-left:570px; margin-top:17px; ">Jun. 2020 --
+                                    Present, Jinan</div> -->
+                                <div class="sub_font sub_honor_block">
+                                    2019 • Issued by Shandong University
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="main sub_font" style="height: 70px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div class="sub_honor">
+                            <p>
+                                <div class="a1 ">
+                                    The Excellent Graduate in Shandong Province
+                                </div>
+                                <!-- <div class="sub_font" style="margin-left:570px; margin-top:17px; ">Jun. 2020 --
+                                    Present, Jinan</div> -->
+                                <div class="sub_font sub_honor_block">
+                                    2019 • Issued by Shandong Province, China
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="main sub_font" style="height: 70px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div class="sub_honor">
+                            <p>
+                                <div class="a1 ">
+                                    Excellent Social Practice Group in Shandong Province
+                                </div>
+                                <!-- <div class="sub_font" style="margin-left:570px; margin-top:17px; ">Jun. 2020 --
+                                    Present, Jinan</div> -->
+                                <div class="sub_font sub_honor_block">
+                                    2018 • Issued by Shandong Province, China
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="main sub_font" style="height: 70px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div class="sub_honor">
+                            <p>
+                                <div class="a1 ">
+                                    1nd-class Scholarship
+                                </div>
+                                <div class="sub_font sub_honor_block">
+                                    2017, 2018, 2019 & 2020 • Issued by Shandong University
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <br> -->
+
+            </div>
+
+        </div>
+
+        <!-- Courses -->
+        <div id="A5" class="h1_block">
+            <h1>
+                <a name="Core Courses" class="a3">
+                    <strong>&ensp;Core Courses</strong>
+                </a>
+            </h1>
+            <div class="main sub_font">
+                <div class="holder" style="background-color: #ffffff; ">
+                    <!--标题框颜色-->
+                    <div class="sub_course_block">
+                        <p>
+                            <!-- <a> -->
+                            Probability and Statistics (97)&ensp;&ensp;|&ensp;&ensp; Stochastic Process (96)&ensp;&ensp;|&ensp;&ensp; Deep Learning and Image Processing (94)&ensp;&ensp;|&ensp;&ensp; Optimization method (98)&ensp;&ensp;|&ensp;&ensp; Principles of Automatic Control
+                            (94)&ensp;&ensp;|&ensp;&ensp; Introduction to Intelligence Control (93)
+                            <!-- &ensp;&ensp;|&ensp;&ensp; -->
+                            <!-- Linear Algebra (88)</a>  -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div id="A6" class="h1_block">
+            <h1>
+                <a name="Skills" class="a3">
+                    <strong>&ensp;Skills</strong>
+                </a>
+            </h1>
+            <div class="main sub_font">
+                <div class="holder" style="background-color: #ffffff; ">
+                    <!--标题框颜色-->
+                    <div class="sub_skill_block">
+                        <p>
+                            <a class="a1">English:</a> IELTS overall 6.5 (R: 7.0 L: 6.0 W: 6.0 S: 6.0)<br>
+                            <a class="a1">Developer Tools:</a> VS Code, PyCharm, Qt, Robot Operating System (ROS) <br>
+                            <a class="a1">Technologies/Frameworks:</a> Linux, GitHub, OpenCV, PyTorch, Tensorflow, Distributed Proximal Policy Optimization,Asynchronous Advantage Actor-Critic <br>
+                            <a class="a1">Microcontrollers</a> Used STC15, MSP430, STM32<br>
+                            <a class="a1">Mobile Integrated Graphics:</a> Used NVIDIA® Jetson AGX Xavier<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Extracurricular Experiences -->
+        <div id="A7" class="h1_block">
+            <h1>
+                <a name="Extracurricular Experiences" class="a3 ">
+                    <strong>&ensp;Extracurricular Experiences</strong>
+                </a>
+            </h1>
+            <div>
+
+
+                <div class="main sub_font" style="height: 90px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div style="margin-left: 20px; height: 90px; ">
+                            <p>
+                                <div class="a1 ">
+                                    Vice President of Student Union
+                                </div>
+                                <!-- <div class="sub_font" style="margin-left:570px; margin-top:17px; ">Jun. 2020 --
+                                    Present, Jinan</div> -->
+                                <div class="sub_font sub_extracurricular_block">
+                                    School of Control Science and Engineering, Shandong University, Sep. 2017 -- Oct. 2018
+                                    <br> Organize school activities, including innovation competitions, academic lectures, and etc.
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="main sub_font" style="height: 90px; ">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div style="margin-left: 20px; height: 90px; ">
+                            <p>
+                                <div class="a1 ">
+                                    Vice President of Voluntary Teaching Assistant Association
+                                </div>
+                                <!-- <div class="sub_font" style="margin-left:570px; margin-top:17px; ">Jun. 2020 --
+                                    Present, Jinan</div> -->
+                                <div class="sub_font sub_extracurricular_block">
+                                    Shandong University, Sep. 2017 -- Oct. 2018
+                                    <br> Teaching children in mathematics and artists in Silver City, Gansu Province, China.
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="main sub_font" style="height: 90px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div style="margin-left: 20px; height: 90px; ">
+                            <p>
+                                <div class="a1 ">
+                                    Leader of Underwater Robot Group
+                                </div>
+                                <!-- <div class="sub_font" style="margin-left:570px; margin-top:17px; ">Jun. 2020 --
+                                    Present, Jinan</div> -->
+                                <div class="sub_font sub_extracurricular_block">
+                                    Shandong University, Oct. 2017 -- May 2019
+                                    <br> Led association members participate in the International Underwater Robot Competition
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="main sub_font" style="height: 90px;">
+                    <div class="holder" style="height: 90px; background-color: #ffffff; ">
+                        <!--标题框颜色-->
+                        <div style="margin-left: 20px; height: 90px; ">
+                            <p>
+                                <div class="a1 ">
+                                    Secretary of the Youth League Branch of the Class
+                                </div>
+                                <!-- <div class="sub_font" style="margin-left:570px; margin-top:17px; ">Jun. 2020 --
+                                    Present, Jinan</div> -->
+                                <div class="sub_font sub_extracurricular_block">
+                                    Class 1 of 2015, School of Control Science and Engineering, Shandong University, Sep. 2017 -- Oct. 2018
+                                    <br>Responsible for the daily affairs and activities of the class together with the monitor
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <br>
+        <div style="width:100%; ">
+            <div style="margin:0 auto;text-align:center; ">
+                <span>
+                    <p>
+                        Updated: 2022/3/24
+                    </p>
+                    <p>Copyright <span aria-hidden="true ">©</span> 2021 by Yudi Zhang. <span class="nowrap ">All rights
+                            reserved.</span><br> All designs are the property of the owner.</p>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./index_files/meny.min.js "></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        a {
+            color: #c2575b;
+            text-decoration: none;
+            -webkit-transition: 0.15s color ease;
+            -moz-transition: 0.15s color ease;
+            -ms-transition: 0.15s color ease;
+            -o-transition: 0.15s color ease;
+            transition: 0.15s color ease;
+        }
+        
+        a:hover {
+            color: #f76f76;
+        }
+        
+        h1,
+        h2 {
+            font-size: 24px;
+            color: #c2575b;
+        }
+        
+        .meny {
+            display: none;
+            /* padding: 10px; */
+            overflow: auto;
+            background: #333;
+            /*background:url(sliderbg.jpg) no-repeat;
+        background-size:100% 100%;*/
+            color: #eee;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .meny .comment {
+            position: absolute;
+            text-align: right;
+            /* width: 200px; */
+            margin-right: 15px;
+        }
+        
+        .meny ul {
+            /* padding: 10px; */
+            margin-top: 10px;
+            margin-right: 15px;
+            text-align: right;
+        }
+        
+        .meny ul li {
+            display: inline-block;
+            width: 200px;
+            /* width: 230px; */
+            list-style: none;
+        }
+        /* .meny ul li a.hover{
+            box-shadow: inset 0 0 10px rgb(209, 182, 182);
+        } */
+        /* .meny ul li:before {
+            content: '-';
+            margin-right: 5px;
+            color: rgba(255, 255, 255, 0.2);
+        } */
+        
+        .meny-left ul li a:hover {
+            color: #333;
+            opacity: .6;
+            text-decoration: underlines;
+        }
+        
+        .mark_of_content {
+            color: rgba(0, 0, 0, 1);
+            /* padding-left: 80px; */
+            /* padding-top: 300px; */
+            transform: rotate(270deg);
+        }
+        /**
+     * Hint graphic that appears while menu is inactive
+     */
+        
+        .meny-arrow {
+            position: absolute;
+            z-index: 20;
+            border: 15px solid transparent;
+            -webkit-transition: opacity 0.4s ease 0.4s;
+            -moz-transition: opacity 0.4s ease 0.4s;
+            -ms-transition: opacity 0.4s ease 0.4s;
+            -o-transition: opacity 0.4s ease 0.4s;
+            transition: opacity 0.4s ease 0.4s;
+        }
+        
+        .meny-left .meny-arrow {
+            left: 14px;
+            top: 50%;
+            margin-top: -16px;
+            border-left: 15px solid #333;
+        }
+        
+        .meny-right .meny-arrow {
+            right: 14px;
+            top: 50%;
+            margin-top: -16px;
+            border-right: 10px solid #333;
+        }
+        
+        .meny-top .meny-arrow {
+            left: 50%;
+            top: 14px;
+            margin-left: -16px;
+            border-top: 16px solid #333;
+        }
+        
+        .meny-bottom .meny-arrow {
+            left: 50%;
+            bottom: 14px;
+            margin-left: -16px;
+            border-bottom: 16px solid #333;
+        }
+        
+        .meny-active .meny-arrow {
+            opacity: 0;
+            -webkit-transition: opacity 0.2s ease;
+            -moz-transition: opacity 0.2s ease;
+            -ms-transition: opacity 0.2s ease;
+            -o-transition: opacity 0.2s ease;
+            transition: opacity 0.2s ease;
+        }
+        /**
+     * Main contents area
+     */
+        
+        .contents {
+            background: #dfdfdf;
+            /*界面背景颜色*/
+            /* padding: 20px 40px; */
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .contents>article {
+            max-width: 400px;
+        }
+        
+        .contents p {
+            margin: 10px 0 10px 0;
+            font-size: 16px;
+            line-height: 1.32;
+        }
+        
+        .contents small {
+            display: block;
+            margin-top: 10px;
+            padding-top: 10px;
+            color: #333;
+            font-size: 0.85em;
+            border-top: 1px dashed #ccc;
+            -webkit-text-size-adjust: none;
+        }
+        
+        .contents .sharing {
+            position: absolute;
+            bottom: 20px;
+        }
+        
+        .seldate {
+            width: 300px;
+            font-size: 18px;
+        }
+        
+        body * {
+            /* font-family: Arial, "Times New Roman", sans-serif; */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /* font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; */
+        }
+        
+        body {
+            margin-top: 0;
+            padding-top: 0;
+        }
+        
+        .container {
+            width: 100%;
+            margin: 0 auto 50px;
+        }
+        
+        .container>.title {
+            color: #bbb;
+            font-weight: bold;
+            margin-bottom: 10px;
+            background: rgb(252, 251, 251);
+            padding: 5px 15px;
+        }
+        
+        .date {
+            font-size: 18pt;
+            font-weight: bold;
+            line-height: 15pt;
+            text-align: center;
+        }
+        
+        .split,
+        .clear {
+            clear: both;
+            height: 1px;
+            overflow-y: hidden;
+        }
+        
+        .good .title,
+        .bad .title {
+            float: left;
+            width: 180px;
+            font-weight: bold;
+            height: 40px;
+            text-align: center;
+            font-size: 18pt;
+            padding-top: 10px;
+        }
+        
+        .good .title {
+            background: yellow;
+        }
+        
+        .bad .title {
+            background: red;
+            color: #fff;
+        }
+        
+        .good .content,
+        .bad .content {
+            margin-left: 30px;
+            padding-top: 50px;
+            font-size: 15pt;
+        }
+        
+        .content ul {
+            list-style: none;
+            margin: 10px 0 0;
+            padding: 0;
+        }
+        
+        .content ul li {
+            line-height: 150%;
+            font-size: 15pt;
+            font-weight: bold;
+            color: #444;
+        }
+        
+        .content ul li div.description {
+            font-size: 10pt;
+            font-weight: normal;
+            margin-left: 15px;
+            color: #777;
+            line-height: 110%;
+            margin-bottom: 10px;
+        }
+        
+        .direction {
+            font-size: 11pt;
+            margin-top: 10px;
+        }
+        
+        .direction_value {
+            color: #4a4;
+            font-weight: bold;
+        }
+        
+        .ojs {
+            font-size: 11pt;
+            margin-top: 10px;
+        }
+        
+        .ojs_value {
+            color: #4a4;
+            font-weight: bold;
+        }
+        
+        .prob {
+            font-size: 11pt;
+            margin-top: 10px;
+        }
+        
+        .prob_value {
+            color: #4a4;
+            font-weight: bold;
+        }
+        
+        .comment {
+            position: fixed;
+            bottom: 0px;
+            font-size: 11pt;
+        }
+        
+        .comment ul {
+            margin-left: 15px;
+            padding-left: 0px;
+            color: #666;
+            font-size: 13px;
+        }
+    </style>
+    <script>
+        var meny = Meny.create({
+            menuElement: document.querySelector('.meny'),
+            contentsElement: document.querySelector('.contents'),
+            position: Meny.getQuery().p || 'left',
+            height: 200,
+            width: 270,
+            threshold: 40
+        });
+        if (Meny.getQuery().u && Meny.getQuery().u.match(/^http/gi)) {
+            var contents = document.querySelector('.contents');
+            contents.style.padding = '0px';
+            contents.innerHTML = '<div class="cover "></div><iframe src=" ' + Meny.getQuery().u + ' " style="width: 100%; height: 100%; border: 0; position: absolute; "></iframe>';
+        }
+    </script>
+</body>
+
+</html>
