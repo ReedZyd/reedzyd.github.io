@@ -25,7 +25,7 @@ redirect_from:
     Prior to joining TU/e, I was a master student in <a href="https://www.en.sdu.edu.cn/" target="_blank">Shandong University</a> (SDU), supervised by <a href="http://www.vsislab.com/" target="_blank">Prof. Wei Zhang</a>. I also obtained my bachelor's degree from Shandong University.
 
   </p>
-    <p>My current research interests lie in reinforcement learning, especially causal RL, multi-agent RL, RL for LLMs.</p>
+    <p>My current research interests lie in reinforcement learning (RL), especially causal RL, multi-agent RL, RL for LLMs.</p>
 
 </div>
     <hr>
@@ -34,7 +34,7 @@ redirect_from:
     <h1>News</h1>
     <ul>
         <li>Jan 2025, one paper accecpted by ICLR 2025.</li>
-        <li>Oct 2024, two papers accecpted by NeurIPS 2024 CRL workshop.</li>
+        <li>Oct 2024, two papers accecpted by NeurIPS 2024 CRL workshop.</li>∂
         <li>Oct 2024, invited talk at Women in AI & Robotics Reading Group.</li>
         <li>Dec 2023, one papers accecpted by AAAI 2024.</li>
         <li>Oct 2023, invited talk at RLChina.</li>
