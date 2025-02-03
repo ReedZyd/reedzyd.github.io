@@ -81,6 +81,7 @@ redirect_from:
     <p><strong>Workshops & Preprint:</strong></p>
     <p>[6] CAST: A causality-inspired spatial-temporal return decomposition approach for multi-agent reinforcement learning. <b>Yudi Zhang</b>, Yali Du, Biwei Huang, Meng Fang, Mykola Pechenizkiy.
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. <br>
+    <a href="https://openreview.net/pdf?id=tlNkThyt18" target="_blank">[Paper]</a></p>
     </p>
 
     <p>[7] MACCA: Offline multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, <b>Yudi Zhang</b>, Meng Fang,  Biwei Huang. 
@@ -112,8 +113,8 @@ redirect_from:
 
     <h1>Service</h1>
     <ul>
-        <li>Journal Reviewer: IEEE Transactions on Artificial Intelligence.</li>
-        <li>Conference Reviewer: AAMAS 2024, ICML 2024, NeurIPS 2024, AAAI 2025, ICLR 2025, AISTATS 2025.</li>
+        <li>Journal Reviewer: Transactions on Machine Learning Research, IEEE Transactions on Artificial Intelligence.</li>
+        <li>Conference Reviewer: AAMAS 2024, ICML 2024, NeurIPS 2024, AAAI 2025, ICLR 2025, AISTATS 2025, ICML 2025.</li>
         <li>Teaching Assistant: Generative AI in OxML 2024, 2IIG0 Data Mining and Machine Learning.</li>
         <li>Supervised MSc students: Schipper Olivier, Beuningen Niels van.</li>
 
