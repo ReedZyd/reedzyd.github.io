@@ -42,6 +42,8 @@ redirect_from:
 
     </ul>
 
+    <hr>
+
 
 
     <h1>Publication</h1>
@@ -81,7 +83,7 @@ redirect_from:
     <p><strong>Workshops & Preprint:</strong></p>
     <p>[6] CAST: A causality-inspired spatial-temporal return decomposition approach for multi-agent reinforcement learning. <b>Yudi Zhang</b>, Yali Du, Biwei Huang, Meng Fang, Mykola Pechenizkiy.
      In Proceedings of the NeurIPS 2024 Causal Representation Learning Workshop. <br>
-    <a href="https://openreview.net/pdf?id=tlNkThyt18" target="_blank">[Paper]</a></p>
+    <a href="https://openreview.net/pdf?id=tlNkThyt18" target="_blank">[Paper]</a>
     </p>
 
     <p>[7] MACCA: Offline multi-agent reinforcement learning with causal credit assignment. Ziyan Wang, Yali Du, <b>Yudi Zhang</b>, Meng Fang,  Biwei Huang. 
@@ -89,6 +91,7 @@ redirect_from:
     <a href="https://arxiv.org/abs/2312.03644" target="_blank">[Paper]</a></p>
 
 
+    <hr>
     <h1>Internship</h1>
     <!-- <p><strong>Education:</strong></p>
     <ul>
@@ -96,11 +99,13 @@ redirect_from:
         <li>M.S. in Control Science and Engineering, Shandong University, 2019 - 2022</li>
         <li>Ph.D in Computer Science, Eindhoven University of Technology, 2026 (expected)</li>
     </ul>
+
     <p><strong>Internship:</strong></p> -->
     <!-- <ul> -->
         <li>Microsoft Research Asia, mentored by <a href="https://scholar.google.com/citations?user=hqlU92YAAAAJ" target="_blank">Dr. Lu Wang</a>, 2024.</li>
     <!-- </ul> -->
     
+    <hr>
     <!-- <hr> -->
     <br>
     <h1>Award</h1>
@@ -111,6 +116,7 @@ redirect_from:
     <li>Scholarships: Shandong University first-class scholarship, Shandong University outstanding students special scholarship, etc.</li>
     </ul>
 
+    <hr>
     <h1>Service</h1>
     <ul>
         <li>Journal Reviewer: Transactions on Machine Learning Research, IEEE Transactions on Artificial Intelligence.</li>
